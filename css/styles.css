@@ -1,8 +1,202 @@
-.heroContainer {
-  background-color: blue;
+/* $colors */
+/* $fonts */
+/* $buttons */
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+}
+
+.header .logo {
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+}
+
+.header .menuText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .textMenu {
+  margin: 10px;
+  padding-left: 15px;
+}
+
+.header .menuIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .icon {
+  width: 50px;
+  height: 40px;
+  margin: 10px;
+  padding-left: 5px;
+}
+
+.heroContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F2F5FE;
+}
+
+.heroContainer .textContainerHero {
+  position: relative;
+}
+
+.heroContainer .tittleHero {
+  margin: 10px;
+  font-size: 40px;
+}
+
+.heroContainer .textHero {
+  font-size: 19px;
+  margin: 10px;
+}
+
+.heroContainer .imageHero {
+  width: 550px;
+  height: 450px;
+}
+
+.containerOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+}
+
+.containerOne .containerOneText {
+  position: relative;
+}
+
+.containerOne .containerTittle {
+  margin: 10px;
+  font-size: 40px;
+}
+
+.containerOne .containerParraf {
+  font-size: 19px;
+  margin: 10px;
+}
+
+.containerOne .iconTexContainer {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerOne .iconContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  padding-left: 20px;
+}
+
+.containerTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F2F5FE;
+}
+
+.containerTwo .containerTittleTwo {
+  position: relative;
+}
+
+.containerTwo .imageContainer {
+  width: 550px;
+  height: 450px;
+}
+
+.containerTwo .containerTwoText {
+  font-size: 40px;
+}
+
+.containerTwo .containerTwoParraf {
+  font-size: 19px;
+}
+
+.containerThree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+}
+
+.containerThree .containerTextTree {
+  font-size: 40px;
+}
+
+.containerThree .containerParrafTree {
+  font-size: 19px;
+}
+
+.containerThree .imageFinal {
+  width: 550px;
+  height: 450px;
 }
 /*# sourceMappingURL=styles.css.map */

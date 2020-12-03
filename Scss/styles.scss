@@ -1,12 +1,146 @@
-$color : red;
-$color2 : blue;
-$color4 : green;
+
+/* $colors */ 
+
+$color-base : #F2F5FE;
+$color-primario : #020335;
+$color-secundario : #EC5840;
+$color-variable : #4459CE;
+$color-claro : #ffffff;
+
+/* $fonts */ 
+
+$font-base: 'lato', sans-serif;
+$font-base_size: 16px;
+
+/* $buttons */ 
+
+$button-color: $color-secundario;
+$button-background: $color-variable;
 
 
-.heroContainer {
-    background-color: $color2;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .header {
-    background-color: $color4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $color-claro;
+    & .logo {
+        width: 100px;
+        height: 40px;
+        margin: 10px;
+    }
+    & .menuText {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    & .textMenu {
+        margin: 10px;
+        padding-left: 15px;
+    }
+    & .menuIcon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    & .icon {
+        width: 50px;
+        height: 40px;
+        margin: 10px;
+        padding-left: 5px;
+
+    }
+}
+.heroContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-base;
+    & .textContainerHero {
+        position: relative;
+    }
+    & .tittleHero {
+        margin: 10px;
+        font-size: 40px;
+    }
+    & .textHero {
+        font-size: 19px;
+        margin: 10px;
+    }
+    & .imageHero {
+        width: 550px;
+        height: 450px;
+    }
+}
+
+.containerOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-claro;
+    & .containerOneText {
+        position: relative;
+    }
+    & .containerTittle {
+        margin: 10px;
+        font-size: 40px;
+    }
+    & .containerParraf {
+        font-size: 19px;
+        margin: 10px;
+    }
+    & .iconTexContainer {
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    & .iconContainer {
+        display: flex;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        padding-left: 20px;
+    }
+}
+
+.containerTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-base;
+    & .containerTittleTwo {
+        position: relative;
+    }
+    & .imageContainer {
+        width: 550px;
+        height: 450px;
+    }
+    & .containerTwoText {
+        font-size: 40px;
+    }
+    & .containerTwoParraf {
+        font-size: 19px;
+    }
+}
+
+.containerThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-claro;
+    & .containerTextTree {
+        font-size: 40px;
+    }
+    & .containerParrafTree {
+        font-size: 19px;
+    }
+    & .imageFinal {
+        width: 550px;
+        height: 450px;
+    }
 }
